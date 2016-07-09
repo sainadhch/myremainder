@@ -28,19 +28,21 @@
 			}
 
 			.title {
-				font-size: 96px;
+				font-size: 52px;
 				margin-bottom: 40px;
+				word-wrap: break-word;
 			}
 
 			.quote {
 				font-size: 24px;
+				word-wrap: break-word;
 			}
 		</style>
 	</head>
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
+				<div class="title">Welcome Sainadh Chandaka</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
 			</div>
 		</div>

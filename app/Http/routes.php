@@ -14,10 +14,9 @@
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
-Route::any('foo', function()
-{
-    return url('foo');
-});
+Route::any('login', 'LoginController@index');
+Route::any('papers/', 'PapersController@index');
+Route::get('papers/{param}/test/', 'PapersController@index');
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
